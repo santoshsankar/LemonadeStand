@@ -13,6 +13,9 @@
 		A22EB2D11A5C403100C88CFB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A22EB2D01A5C403100C88CFB /* Images.xcassets */; };
 		A22EB2D41A5C403100C88CFB /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A22EB2D21A5C403100C88CFB /* LaunchScreen.xib */; };
 		A22EB2E01A5C403200C88CFB /* LemonadeStandTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A22EB2DF1A5C403200C88CFB /* LemonadeStandTests.swift */; };
+		A22EB2EA1A5C4B3800C88CFB /* Supplies.swift in Sources */ = {isa = PBXBuildFile; fileRef = A22EB2E91A5C4B3800C88CFB /* Supplies.swift */; };
+		A22EB2EC1A5C4D0700C88CFB /* Price.swift in Sources */ = {isa = PBXBuildFile; fileRef = A22EB2EB1A5C4D0700C88CFB /* Price.swift */; };
+		A287F61D1A5DB4C1008C4690 /* DailyOps.swift in Sources */ = {isa = PBXBuildFile; fileRef = A287F61C1A5DB4C1008C4690 /* DailyOps.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +39,9 @@
 		A22EB2D91A5C403200C88CFB /* LemonadeStandTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LemonadeStandTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A22EB2DE1A5C403200C88CFB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A22EB2DF1A5C403200C88CFB /* LemonadeStandTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LemonadeStandTests.swift; sourceTree = "<group>"; };
+		A22EB2E91A5C4B3800C88CFB /* Supplies.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Supplies.swift; sourceTree = "<group>"; };
+		A22EB2EB1A5C4D0700C88CFB /* Price.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Price.swift; sourceTree = "<group>"; };
+		A287F61C1A5DB4C1008C4690 /* DailyOps.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DailyOps.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,8 +84,11 @@
 			isa = PBXGroup;
 			children = (
 				A22EB2C91A5C403100C88CFB /* AppDelegate.swift */,
+				A287F61C1A5DB4C1008C4690 /* DailyOps.swift */,
 				A22EB2CB1A5C403100C88CFB /* ViewController.swift */,
 				A22EB2CD1A5C403100C88CFB /* Main.storyboard */,
+				A22EB2E91A5C4B3800C88CFB /* Supplies.swift */,
+				A22EB2EB1A5C4D0700C88CFB /* Price.swift */,
 				A22EB2D01A5C403100C88CFB /* Images.xcassets */,
 				A22EB2D21A5C403100C88CFB /* LaunchScreen.xib */,
 				A22EB2C71A5C403100C88CFB /* Supporting Files */,
@@ -213,6 +222,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				A22EB2CC1A5C403100C88CFB /* ViewController.swift in Sources */,
+				A287F61D1A5DB4C1008C4690 /* DailyOps.swift in Sources */,
+				A22EB2EC1A5C4D0700C88CFB /* Price.swift in Sources */,
+				A22EB2EA1A5C4B3800C88CFB /* Supplies.swift in Sources */,
 				A22EB2CA1A5C403100C88CFB /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -407,6 +419,7 @@
 				A22EB2E51A5C403200C88CFB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A22EB2E61A5C403200C88CFB /* Build configuration list for PBXNativeTarget "LemonadeStandTests" */ = {
 			isa = XCConfigurationList;
@@ -415,6 +428,7 @@
 				A22EB2E81A5C403200C88CFB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
